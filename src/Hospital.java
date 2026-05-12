@@ -29,8 +29,7 @@ class patient{
     }
     void displayBill()
     {
-        System.out.println("\n");
-        System.out.println("=====================Final Bill==========================");
+        System.out.println("\n"+"=====================Final Bill==========================");
         System.out.println("Patient name              :"+patientName);
         System.out.println("Patient Id                :"+patientId);
         System.out.println("=========================================================");
@@ -39,8 +38,7 @@ class patient{
         System.out.println("Number of days admitted   :"+daysAdmitted);
         System.out.println("Room charge per day       :"+roomChargePerDay);
         System.out.println("----------------------------------------------------------");
-        System.out.println("Grand Total               :"+calculateBill());
-        System.out.println("\n");
+        System.out.println("Grand Total               :"+calculateBill()+"\n");
     }
 }
 
