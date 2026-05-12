@@ -34,7 +34,7 @@ class Circle{
     }
 
 }
-public class Rectangle_and_Circle{
+public class RectangleAndCircle {
     static void main(String[] args) {
 
         //rectangle
